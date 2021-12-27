@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+
+<style type="text/css">
+  
+@font-face { 
+    font-family: jonsans; 
+    src: url('DejaVuSansMono.ttf'); 
+} 
+
+* {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+/* 
+
+ORIGINAL PLAIN BODY BCAKGROUND
+
+body {
+  font-size: 10pt;
+  background: #091A32;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+*/
+
+/*
+CUSTOM PATTERN BODY BACKGROUND
+*/
+
+body {
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 10pt;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+
+#space {
+  padding: 40px;
+}
+
+#links {
+  color: #d6d6d6;
+  display: flex;
+  font-family: 'jonsans', serif;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#red {
+  color: #4a99ff;
+  font-weight: bold;
+}
+
+#title {
+  color: #09daff;
+  font-size: large;
+  font-family: 'jonsans', serif;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+
+#links .selection {
+  text-align: center;
+}
+
+#links .box {
+  margin: 0px 20px 0px 20px;
+  padding: 10px 10px 10px 10px;
+  outline: #3C3B41;
+  outline-style: solid;
+  outline-width: 0px;
+}
+
+#links .box h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#links .box .list ul {
+  list-style: none;
+  margin-top: 5px;
+  margin-right: 30px;
+}
+
+#links .box .list ul li a {
+  color: #c5cfe0;
+  text-decoration: none;
+}
+
+#links .box .list ul li a:hover {
+  color: #09ffb5;
+}
+
+@media (max-width: 600px) {
+
+#links {
+  display: block;
+  margin-top: 0px;
+}
+
+#space {
+  padding: 0px;
+}
+
+#title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+}
+
+</style>
+
+<html>
+
+<head>
+  <link rel="shortcut icon" type="image/png" href="rune.png"/>
+  <link rel="icon" type="image/png" href="rune.png">
+  <title>crossroads...</title>
+  <meta charset="utf-8" />
+</head>
+
+<body onload="startpage();">
+
+<p id="title">ᚣᚩᚢ ᚠᛁᚾ ᚣᚩᚢᚱᛋᛖᛚᚠ ᚪᛏ ᚪ ᚳᚱᚩᛋᛋᚱᚩᚪᛞᛋ...</p>
+
+<div id="space"></div>
+<div id="links">
+
+<div class="box">
+  <div class="list">
+    <ul>
+      <li id="red">trackers</li>
+        <br>
+      <li><a href="https://redacted.ch/">redacted</a></li>
+      <li><a href="https://jpopsuki.eu/">jpopsuki</a></li>
+        <br>
+      <li><a href="https://passthepopcorn.me/">passthepopcorn</a></li>
+      <li><a href="https://beyond-hd.me">beyond-hd</a></li>
+      <li><a href="https://privatehd.to">privatehd</a></li>
+      <li><a href="https://cinemaz.to">cinemaz</a></li>
+        <br>
+      <li><a href="https://bibliotik.me/">bibliotik</a></li>
+      <li><a href="https://myanonamouse.net/">myanonamouse</a></li>
+        <br>
+      <li><a href="https://empornium.me/">empornium</a></li>
+      <li><a href="https://pornbay.org">pornbay</a></li>
+        <br>
+      <li><a href="https://gazellegames.net/">gazellegames</a></li>
+        <br>
+      <li><a href="https://animebytes.tv/">animebytes</a></li>
+      <li><a href="https://animetorrents.me/">animetorrents</a></li>
+        <br>
+      <li><a href="https://trackerstatus.info/">tracker status</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="box">
+  <div class="list">
+    <ul>
+      <li id="red">audio</li>
+        <br>
+      <li><a href="https://play.qobuz.com">qobuz</a></li>
+      <li><a href="https://listen.tidal.com">tidal</a></li>
+      <li><a href="https://mora-qualitas.com/">moraqualitas</a></li>
+        <br>
+      <li><a href="https://www.reddit.com/r/audiophile/">r/audiophile</a></li>
+      <li><a href="https://www.reddit.com/r/headphones/">r/headphones</a></li>
+      <li><a href="https://www.reddit.com/r/LetsTalkMusic/">r/letstalkmusic</a></li>
+      <li><a href="https://www.reddit.com/r/listentothis/">r/listentothis</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="box">
+  <div class="list">
+    <ul>
+      <li id="red">social media</li>
+       <br>
+      <li><a href="https://web.whatsapp.com">whatsapp</a></li>
+      <li><a href="https://facebook.com/">facebook</a></li>
+      <li><a href="https://instagram.com/">instagram</a></li>
+      <li><a href="https://twitter.com">twitter</a></li>
+      <li><a href="https://linkedin.com/">linkedin</a></li>
+      <li><a href="https://gmail.com/">gmail</a></li>
+        <br>
+      <li id="red">alogroup</li>
+        <br>
+      <li><a href="http://alorental.cl">alorental</a></li>
+      <li><a href="http://aloventas.cl">aloventas</a></li>
+      <li><a href="http://aloparts.cl">aloparts</a></li>
+      <li><a href="http://alotraining.cl">alotraining</a></li>
+        <br>
+      <li><a href="http://alolift.com">alolift</a></li>
+        <br>
+      <li><a href="http://alogroup.com.ar">aloargentina</a></li>
+      <li><a href="http://alorental.co">alocolombia</a></li>
+      <li><a href="http://alogroup.com.pa">alopanama</a></li>
+      <li><a href="http://alogroup.pe">aloperú</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="box">
+  <div class="list">
+    <ul>
+      <li id="red">yggdrasil</li>
+        <br>
+      <li><a href="http://patozf.quickconnect.to/">yggdrasil</a></li>
+        <br>
+      <li id="red">seedbox</li>
+        <br>
+      <li><a href="https://nitro.seedhost.eu/patozf/rutorrent/">rutorrent</a></li>
+      <li><a href="http://patozf.nitro.seedhost.eu/patozf/downloads/">archivos</a></li>
+      <li><a href="https://www.seedhost.eu/whmcs/clientarea.php?action=productdetails&id=103031&updated">clientarea</a></li>
+      <li><a href="https://192.168.1.32:8384/">syncthing / l</a></li>
+      <li><a href="https://nitro.seedhost.eu/patozf/syncthing/#">syncthing / a</a></li>
+        <br>
+      <li id="red">entertainment</li>
+        <br>
+      <li><a href="https://youtube.com">youtube</a></li>
+      <li><a href="https://twitch.com">twitch</a></li>
+      <li><a href="https://netflix.com">netflix</a></li>
+      <li><a href="https://crunchyroll.com/">crunchyroll</a></li>
+      <li><a href="https://plex.tv">plex</a></li>
+      <li><a href="https://open.spotify.com">spotify</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="box">
+  <div class="list">
+    <ul>
+      <li id="red">mtg</li>
+        <br>
+      <li><a href="https://scryfall.com">scryfall</a></li>
+      <li><a href="https://aetherhub.com">aetherhub</a></li>
+      <li><a href="https://mtggoldfish.com">mtggoldfish</a></li>
+      <li><a href="https://reddit.com/r/MagicArena">r/magicarena</a></li>
+      <li><a href="https://reddit.com/r/spikes">r/spikes</a></li>
+      <li><a href="https://reddit.com/r/mtgporn">r/mtgporn</a></li>
+        <br>
+      <li id="red">lol</li>
+        <br>
+      <li><a href="https://u.gg">u.gg</a></li>
+      <li><a href="https://reddit.com/r/leagueoflegends">r/leagueoflegends</a></li>
+      <li><a href="https://reddit.com/r/summonerschool">r/summonerschool</a></li>
+        <br>
+      <li id="red">dnd</li>
+        <br>
+      <li><a href="https://dndbeyond.com">dndbeyond</a></li>
+      <li><a href="https://dmsguild.com/">dmsguild</a></li>
+      <li><a href="https://kobold.club">koboldclub</a></li>
+      <li><a href="https://reddit.com/r/unearthedarcana">r/unearthedarcana</a></li>
+      <li><a href="https://reddit.com/r/minipainting">r/minipainting</a></li>
+      <li><a href="https://reddit.com/r/DnD">r/dnd</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="box">
+  <div class="list">
+    <ul>
+      <li id="red">reddit</li>
+        <br>
+      <li><a href="https://reddit.com/r/unixporn">r/unixporn</a></li>
+      <li><a href="https://reddit.com/r/battlestations">r/battlestations</a></li>
+      <li><a href="https://reddit.com/r/mechanicalkeyboards">r/mechanicalkeyboards</a></li>
+      <li><a href="https://reddit.com/r/piracy">r/piracy</a></li>
+      <li><a href="https://reddit.com/r/todayilearned">r/todayilearned</a></li>
+      <li><a href="https://reddit.com/r/dataisbeautiful">r/dataisbeautiful</a></li>
+      <li><a href="https://reddit.com/r/theydidthemath">r/theydidthemath</a></li>
+      <li><a href="https://reddit.com/r/truefilm">r/truefilm</a></li>
+      <li><a href="https://reddit.com/r/coolguides">r/coolguides</a></li>
+        <br>
+      <li id="red">miscellaneous</li>
+        <br>
+      <li><a href="https://monkeytype.com/">monkeytype</a></li>
+      <li><a href="https://it-tools.tech/">ittools</a></li>
+      <li><a href="https://www.random.org/">random</a></li>
+      <li><a href="https://www.flightstats.com/v2/">flightstats</a></li>
+      <li><a href="https://color.adobe.com">kuler</a></li>
+      <li><a href="https://pastebin.com/">pastebin</a></li>
+      <li><a href="https://classicreload.com/">classicreload</a></li>
+      <li><a href="http://radio.garden/">radiogarden</a></li>
+      <li><a href="https://wallhaven.cc/">wallhaven</a></li>
+      <li><a href="https://www.justbeamit.com/">justbeamit</a></li>
+      <li><a href="https://www.deepl.com/translator">deepl</a></li>
+      <li><a href="https://cialu.net/" alt="technology news site">cialu</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+</div>
+</body>
+</html>
